@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: #F3F3F3;
+}
+
+#search {
+	margin: 10px;
+}
+
+#search input[type=text] {
+	width: 50%;
+	height: 40px;
+	border-radius: 8px;
+	border: 2px solid #009933;
+}
+
+#search input[type=submit] {
+	width: 90px;
+	height: 40px;
+	border-radius: 8px;
+  	border: 2px solid #009933;
+  	background-color: #009933;
+  	color: white;
+}
+
+.trail-container {
+	/* width: 80%; */
+	margin: 10px 150px;
+	background-color: white;
+	border: 1px solid #e3e3e3;
+} 
+
+.trail-image {
+	height: 300px;
+	width: 100%;
+	background-size: cover;
+/* 	background-position: 20% center; */
+	background-position: 20% 75%;
+	position: relative;
+}	
+
+.trail-image h1 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 30px;
+	color: white;
+}
+
+.trail-image h3 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 30px;
+	color: white;
+}
+
+.trail-image div {
+	/* display: inline-block; */
+	width: 100px;
+	text-align: center;
+	background-color: #009933;
+	border-radius: 8px;
+	padding: 5px;
+	font-size: 12px;
+	color: white;
+/* 	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 30px; */
+}
+
+
+.trail-text {
+	padding: 20px;
+}
+
+.trail-text hr {
+	border: 1px solid #e3e3e3;
+}
+
+#trail-description {
+	margin-top: 0;
+}
+
+.trail-text table {
+	width: 100%;
+	text-align:center;	
+}
+
+.trail-text table th  {
+	width: 33.3%;
+	font-size: 12px;
+	color: grey;	
+}
+
+.trail-text table td  {
+	width: 33.3%;
+}
+
+.trail-reviews h3 {
+
+}
+
+.review-form {
+	position: relative;
+}
+
+.rating {
+   float: left;
+}
+
+.rating p {
+	margin: 0;
+	
+}
+
+.rating span { float:right; position:relative; }
+
+.rating span input {
+    position:absolute;
+    top:0px;
+    left:0px;
+    opacity:0;
+}
+
+.rating span label {
+    display:inline-block;
+    width:25px;
+    height:25px;
+    text-align:center;
+    color:#FFF;
+    background:#ccc;
+    font-size:30px;
+    margin-right:2px;
+    line-height:30px;
+    border-radius:50%;
+    border-radius:50%;
+}
+
+.rating span:hover ~ span label,
+.rating span:hover label,
+.rating span.checked label,
+.rating span.checked ~ span label {
+    background: #009933;
+    color:#FFF;
+}
+
+.review-form textarea {
+	height: 150px;
+	width: 500px;
+}
+

@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+.visual {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../images/central-park.jpg");
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	background-position: center 40%;
+	background-attachment: fixed; 
+	background-repeat: no-repeat;
+}
+
+#search-container {
+	width: 70%;
+	height: 50%;
+    background: rgba(238, 238, 238, 0.7); 
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#search-container-items {
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+#search-container h1 {
+	margin-bottom: 20px;
+	color: #3B3B3D;
+	font-size: 35px;
+}
+
+#search-container input[type=text] {
+	width: 70%;
+	height: 40px;
+	border-radius: 8px;
+	border: 2px solid #009933;
+}
+
+#search-container input[type=submit] {
+	width: 90px;
+	height: 40px;
+	border-radius: 8px;
+  	border: 2px solid #009933;
+  	background-color: #009933;
+  	color: white;
+}
+
+.textband {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 400px;
+	background-color: white;
+}
+
+#textband-text {
+	width: 70%;
+	text-align: center;
+	padding: 40px;
+}
+
+.textband h1 {
+	padding-bottom: 10px;
+	font-size: 30px;
+}
+
+.textband p {
+	padding-bottom: 10px;
+	font-size: 20px
+
+}
+
+.visual2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../images/central-park-water.png");
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	background-attachment: fixed; 
+	background-repeat: no-repeat;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+	background-color: #e3e3e3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

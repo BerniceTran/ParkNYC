@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+header {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+/*  background-color: #e3e3e3;*/
+  background-color: white;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+#brand {
+  text-decoration: none;
+  color: #009933;
+  font-size: 35px;/*
+  text-align: center;*/
+}
+
+#login {
+  	position: absolute;
+    right: 115px;
+    width: 80px;
+    padding: 10px 0;
+    border-radius: 8px;
+    border: 2px solid #009933;
+    background-color: #009933;
+    color: white;
+    
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+}
+
+#register {
+  	position: absolute;
+    right: 15px;
+    width: 80px;
+    padding: 10px 0;
+    border-radius: 8px;
+    border: 2px solid #009933;
+    background-color: white;
+    color: #009933;
+
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+}
